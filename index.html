@@ -642,7 +642,7 @@
 									</div>
 									<div class="col-lg-12">
 										<div class="alert-msg" style="text-align: left;"></div>
-										<button class="genric-btn primary" style="float: right;">Entrar em contato</button>											
+										<button class="genric-btn primary" style="float: right; " id="btnContact">Entrar em contato</button>					<p id="my-form-status"></p>						
 									</div>
 								</div>
 							</form>	
@@ -691,6 +691,54 @@ Copyright<span class="text-warning"> &copy; <script>document.write(new Date().ge
 			<script src="js/simple-skillbar.js"></script>							
 			<script src="js/owl.carousel.min.js"></script>							
 			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
+			<script src="js/main.js"></script>
+			
+			<script>
+				window.addEventListener("DOMContentLoaded", function() {
+			  
+				  // get the form elements defined in your form HTML above
+				  
+				  var form = document.getElementById("myForm");
+				  var button = document.getElementById("btnContact");
+				  var status = document.getElementById("my-form-status");
+			  
+				  // Success and Error functions for after the form is submitted
+				  
+				  function success() {
+					form.reset();
+					button.style = "display: none ";
+					status.innerHTML = "Seu formulário foi enviado. Obrigado!";
+				  }
+			  
+				  function error() {
+					status.innerHTML = "Oops! Tivemos um problema com seu envio.";
+				  }
+			  
+				  // handle the form submission event
+			  
+				  form.addEventListener("submit", function(ev) {
+					ev.preventDefault();
+					var data = new FormData(form);
+					ajax(form.method, form.action, data, success, error);
+				  });
+				});
+				
+				// helper function for sending an AJAX request
+			  
+				function ajax(method, url, data, success, error) {
+				  var xhr = new XMLHttpRequest();
+				  xhr.open(method, url);
+				  xhr.setRequestHeader("Accept", "application/json");
+				  xhr.onreadystatechange = function() {
+					if (xhr.readyState !== XMLHttpRequest.DONE) return;
+					if (xhr.status === 200) {
+					  success(xhr.response, xhr.responseType);
+					} else {
+					  error(xhr.status, xhr.response, xhr.responseType);
+					}
+				  };
+				  xhr.send(data);
+				}
+			  </script>
 		</body>
 	</html>
