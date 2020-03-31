@@ -1,7 +1,7 @@
 # Rdfreitas Frontend/UI Designer
-> Meu website para trabalhos freelance
+> My website for freelance works
 
-Esse projeto é o desenvolvimento do meu website com minha formação, experiências e portfolio.
+This project are the development of my website with my graduation, exepriences and portfolio.
 
 ## Versioning
 To keep better organization of releases we follow the [Semantic Versioning 2.0.0](https://semver.org/) guidelines.
@@ -13,16 +13,16 @@ Want to contribute? Follow these recommendations.
 ## History
 
 **[v1.1.1](https://github.com/rodrigos4y/rodrigos4y.github.io/releases/tag/v1.1.1)**
-- Resolvido alguns bugs de textos
-- Removido um item do menu
-- Resolvido bug no botão de 'Entrar em contato'
-- Formulário de contato agora esta enviando corretamente
+- Fix texts bugs
+- Removed a menu item
+- Fix a bug in contact button
+- Contact form now send correctly
 
 ## Meta
 
 Rodrigo Dias de Freitas – [https://rodrigos4y.github.io/](https://rodrigos4y.github.io/) – rodrigo@rdfreitas.com.br
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+MIT license. See `LICENSE` for more information.
 
 [https://github.com/rodrigos4y](https://github.com/rodrigos4y)
 
