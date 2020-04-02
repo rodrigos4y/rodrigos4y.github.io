@@ -12,11 +12,9 @@ Want to contribute? Follow these recommendations.
 
 ## History
 
-**[v1.1.1](https://github.com/rodrigos4y/rodrigos4y.github.io/releases/tag/v1.1.1)**
-- Fix texts bugs
-- Removed a menu item
-- Fix a bug in contact button
-- Contact form now send correctly
+**[v1.2.0](https://github.com/rodrigos4y/rodrigos4y.github.io/releases/tag/v1.2.0)**
+- Create portfolio's section
+- Create certificate's section with my courses certificate
 
 ## Meta
 
