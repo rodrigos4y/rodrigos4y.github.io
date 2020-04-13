@@ -12,9 +12,9 @@ Want to contribute? Follow these recommendations.
 
 ## History
 
-**[v1.2.0](https://github.com/rodrigos4y/rodrigos4y.github.io/releases/tag/v1.2.0)**
-- Create portfolio's section
-- Create certificate's section with my courses certificate
+**[v1.2.1](https://github.com/rodrigos4y/rodrigos4y.github.io/releases/tag/v1.2.1)**
+- Add a new portfolio's case
+- Adjust a problem in a row and column
 
 ## Meta
 
