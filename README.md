@@ -12,7 +12,7 @@ Want to contribute? Follow these recommendations.
 
 ## History
 
-**[v1.2.1](https://github.com/rodrigos4y/rodrigos4y.github.io/releases/tag/v1.2.1)**
+**[v1.2.1](https://github.com/rodrigos4y/rodrigos4y.github.io/releases/tag/v.1.2.1)**
 - Add a new portfolio's case
 - Adjust a problem in a row and column
 
