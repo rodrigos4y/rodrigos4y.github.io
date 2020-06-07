@@ -810,17 +810,25 @@
 							</div>														
 						</div>
 						<div class="col-lg-8">
-							<form class="form-area contact-form text-right" id="myForm" action="https://formspree.io/xyyplwyy" method="post">
-								<div class="row">	
-									<div class="col-lg-6 form-group">
-										<input name="name" placeholder="Nome completo" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nome completo'" class="common-input mb-20 form-control" required="required" type="text">
-									
-										<input name="email" placeholder="E-mail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'E-mail'" class="common-input mb-20 form-control" required="required" type="email">
-
-										<input name="subject" placeholder="Assunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Assunto'" class="common-input mb-20 form-control" required="required" type="text">
+							<form class="form-area contact-form" id="myForm" action="https://formspree.io/xyyplwyy" method="post">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label for="name">Nome completo</label>
+											<input name="name" id="name" class="common-input mb-20 form-control" required="required" type="text">
+										</div>
+										<div class="form-group">
+											<label for="email">E-mail</label>
+											<input name="email" id="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" class="common-input mb-20 form-control" required="required" type="email">
+										</div>
+										<div class="form-group">
+											<label for="subject">Assunto</label>
+											<input name="subject" id="subject" class="common-input mb-20 form-control" required="required" type="text">
+										</div>
 									</div>
 									<div class="col-lg-6 form-group">
-										<textarea class="common-textarea form-control" name="message" placeholder="Mensagem" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensagem'" required=""></textarea>				
+										<label for="message">Mensagem</label>
+										<textarea class="common-textarea form-control" name="message" id="message" required=""></textarea>				
 									</div>
 									<div class="col-lg-12">
 										<div class="alert-msg" style="text-align: left;"></div>
