@@ -12,9 +12,11 @@ Want to contribute? Follow these recommendations.
 
 ## History
 
-**[v1.2.1](https://github.com/rodrigos4y/rodrigos4y.github.io/releases/tag/v.1.2.1)**
-- Add a new portfolio's case
-- Adjust a problem in a row and column
+**[v1.2.2](https://github.com/rodrigos4y/rodrigos4y.github.io/releases/tag/v.1.2.2)**
+- Improve acessibility
+- Changed language to 'pt-br' (Brazilian portuguese)
+- Removed 'time' tag
+- Passed on accessibility validation on [W3C Validator](https://validator.w3.org/)
 
 ## Meta
 
