@@ -40,11 +40,11 @@
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
-			          <li><a href="index.html">Home</a></li>
-			          <li><a href="#area-about">Sobre mim</a></li>
-			          <li><a href="#area-services">Serviços</a></li>
-			          <li><a href="#portfolio">Portfolio</a></li>	          		          
-			          <li><a href="#area-contact">Contato</a></li>
+			          <li><a href="index.html" id="menuHome" accesskey="1">Home</a></li>
+			          <li><a href="#area-about" id="menuAbout" accesskey="2">Sobre mim</a></li>
+			          <li><a href="#area-services" id="menuServices" accesskey="3">Serviços</a></li>
+			          <li><a href="#portfolio" id="menuPortfolio" accesskey="4">Portfolio</a></li>	          		          
+			          <li><a href="#area-contact" id="menuContact" accesskey="5">Contato</a></li>
 			        </ul>
 			      </nav>		    		
 		    	</div>
@@ -887,6 +887,12 @@ Copyright<span class="text-warning"> &copy; <script>document.write(new Date().ge
 			
 			<script>
 				window.addEventListener("DOMContentLoaded", function() {
+
+					document.getElementById("menuHome").accessKey = "1";
+					document.getElementById("menuAbout").accessKey = "2";
+					document.getElementById("menuService").accessKey = "3";
+					document.getElementById("menuPortfolio").accessKey = "4";
+					document.getElementById("menuContact").accessKey = "5";
 			  
 				  // get the form elements defined in your form HTML above
 				  
