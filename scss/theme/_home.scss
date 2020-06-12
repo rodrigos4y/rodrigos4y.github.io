@@ -23,7 +23,7 @@
   background: -moz-linear-gradient( 0deg, rgb(132,144,255) 0%, rgb(98,189,252) 100%);
   background: -webkit-linear-gradient( 0deg, rgb(132,144,255) 0%, rgb(98,189,252) 100%);
   background: -ms-linear-gradient( 0deg, rgb(132,144,255) 0%, rgb(98,189,252) 100%);
-    -webkit-background-clip: text;
+    
     -webkit-text-fill-color: transparent;
 }
 
@@ -118,9 +118,8 @@
 
 .banner-area {
     background:$offwhite;
-    .fullscreen {
-        height: 750px !important;
-    }
+    padding-top: 215px;
+
 }
 
 .banner-left{

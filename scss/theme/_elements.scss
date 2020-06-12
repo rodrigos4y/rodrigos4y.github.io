@@ -13,7 +13,11 @@ $disable: (#222222, .3);
 
 
 /*---------- Start Elements Page -------------*/
-
+body{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
 .whole-wrap {
     background-color: #f9f9ff;
 }
@@ -58,7 +62,7 @@ $disable: (#222222, .3);
 
 .about-generic-area {
     background: $white;
-    .border-top-generic {}
+    
     p {
         margin-bottom: 20px;
     }
@@ -96,7 +100,7 @@ $disable: (#222222, .3);
 }
 
 .text-heading {
-	margin-bottom: 30px;
+	margin-bottom: 1.875rem;
 	font-size: 24px;
 }
 
@@ -107,14 +111,14 @@ $disable: (#222222, .3);
 
 .typo-sec{
 	@media(max-width:767px){
-		margin-bottom:30px;
+		margin-bottom:1.875rem;
 	}
 }
 
 
 .element-wrap{
 	@media(max-width:767px){
-		margin-top:30px;
+		margin-top:1.875rem;
 	}
 }
 
@@ -128,7 +132,7 @@ h1 {
 	font-size: 36px;
 }
 h2 {
-	font-size: 30px;
+	font-size: 1.875rem;
 }
 h3 {
 	font-size: 24px;
@@ -177,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	outline: none;
 	line-height: 40px;
-	padding: 0 30px;
+	padding: 0 1.875rem;
 	font-size: .8em;
 	text-align: center;
 	text-decoration: none;
@@ -195,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 		line-height: 45px;
 	}
 	&.medium {
-		line-height: 30px;
+		line-height: 1.875rem;
 	}
 	&.small {
 		line-height: 25px;
@@ -368,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .generic-blockquote {
-	padding: 30px 50px 30px 30px;
+	padding: 1.875rem 50px 1.875rem 1.875rem;
 	background: #fff;
 	border-left: 2px solid $primary;
 }
@@ -379,11 +383,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .progress-table {
 	background: #fff;
-	padding: 15px 0px 30px 0px;
+	padding: 15px 0px 1.875rem 0px;
 	min-width: 800px;
 	.serial {
 		width: 11.83%;
-		padding-left: 30px;
+		padding-left: 1.875rem;
 	}
 	.country {
 		width: 28.07%;
@@ -456,7 +460,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-gallery-image {
-	margin-top: 30px;
+	margin-top: 1.875rem;
 	background-repeat: no-repeat !important;
 	background-position: center center !important;
 	background-size: cover !important;
@@ -473,7 +477,7 @@ h1, h2, h3, h4, h5, h6 {
 .unordered-list {
 	li {
 		position: relative;
-		padding-left: 30px;
+		padding-left: 1.875rem;
 		line-height: 1.82em !important;
 		&:before {
 			content: "";
@@ -489,7 +493,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 .ordered-list {
-	margin-left: 30px;
+	margin-left: 1.875rem;
 	li {
 		list-style-type:decimal-leading-zero;
 		color: $primary;
@@ -503,7 +507,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .ordered-list-alpha {
 	li {
-		margin-left: 30px;
+		margin-left: 1.875rem;
 		list-style-type:lower-alpha;
 		color: $primary;
 		font-weight: 500;
@@ -516,7 +520,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .ordered-list-roman {
 	li {
-		margin-left: 30px;
+		margin-left: 1.875rem;
 		list-style-type:lower-roman;
 		color: $primary;
 		font-weight: 500;
@@ -650,7 +654,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-element-widget{
-	margin-bottom:30px;
+	margin-bottom:1.875rem;
 }
 
 .primary-switch {

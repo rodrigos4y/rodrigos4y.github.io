@@ -23,7 +23,7 @@
 			
 		<link rel="stylesheet" href="css/linearicons.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-4.5.0-dist/css/bootstrap.css">
 		<link rel="stylesheet" href="css/magnific-popup.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">				
 		<link rel="stylesheet" href="css/nice-select.css">							
@@ -31,7 +31,8 @@
 		<link rel="stylesheet" href="css/owl.carousel.css">				
 		<link rel="stylesheet" href="css/main.css">
 	</head>
-		<body>	
+		<body>
+			<span id="home"></span>	
 		  <header id="header">
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
@@ -39,23 +40,23 @@
 			        <a href="index.html"><img src="img/logo.png" alt="Rdfreitas - Frontend/UI Designer" title="Rdfreitas - Frontend/UI Designer" style="width: 240px; height: 70px;"/></a>
 			      </div>
 			      <nav id="nav-menu-container">
-			        <ul class="nav-menu">
-			          <li><a href="index.html" id="menuHome" accesskey="1">Home</a></li>
-			          <li><a href="#area-about" id="menuAbout" accesskey="2">Sobre mim</a></li>
-			          <li><a href="#area-services" id="menuServices" accesskey="3">Serviços</a></li>
-			          <li><a href="#portfolio" id="menuPortfolio" accesskey="4">Portfolio</a></li>	          		          
-			          <li><a href="#area-contact" id="menuContact" accesskey="5">Contato</a></li>
+			        <ul class="nav-menu nav nav-pills">
+			          <li class="nav-item"><a class="nav-link" href="#home" id="menuHome" accesskey="1">Home</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#area-about" id="menuAbout" accesskey="2">Sobre mim</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#area-services" id="menuServices" accesskey="3">Serviços</a></li>
+			          <li class="nav-item"><a class="nav-link" href="#portfolio" id="menuPortfolio" accesskey="4">Portfolio</a></li>	          		          
+			          <li class="nav-item"><a class="nav-link" href="#area-contact" id="menuContact" accesskey="5">Contatos</a></li>
 			        </ul>
 			      </nav>		    		
 		    	</div>
 		    </div>
 		  </header>
-
+		  <div data-spy="scroll" data-target="#nav-menu-container">  
 			<!-- start banner Area -->
 			<section class="banner-area pt-15">
 				<div class="container">
 					<div class="row fullscreen align-items-center justify-content-between">
-						<div class="col-lg-6 col-md-6 banner-left">
+						<div class="col-lg">
 							<h6>Eu sou</h6>
 							<h1>Rodrigo Dias de Freitas</h1>
 
@@ -68,8 +69,8 @@
 							</p>
 							<a href="#area-contact" class="primary-btn text-uppercase">Entre em contato</a>
 						</div>
-						<div class="col-lg-6 col-md-6 banner-right d-flex align-self-end">
-							<img class="img-fluid" src="img/hero-img.png" alt="">
+						<div class="col-lg">
+							<img class="img-fluid" src="img/foto-perfil.jpg" alt="Desenvolvedor Front-end Rodrigo Freitas">
 						</div>
 					</div>
 				</div>					
@@ -841,7 +842,7 @@
 				</div>	
 			</section>
 			<!-- end recent-blog Area -->					
-
+			</div>
             <!-- start footer Area -->
             <footer class="footer-area section-gap">
                 <div class="container">
@@ -880,63 +881,12 @@ Copyright<span class="text-warning"> &copy; <script>document.write(new Date().ge
 			<script src="js/jquery.counterup.min.js"></script>
 			<script src="js/simple-skillbar.js"></script>							
 			<script src="js/owl.carousel.min.js"></script>							
-			<script src="js/mail-script.js"></script>	
+			<script src="js/mail-script.js"></script>
+			<script src="js/util.js"></script>
 			<script src="js/main.js"></script>
 
 			<script src="https://profile.codersrank.io/widget/widget.js"></script>
 			
-			<script>
-				window.addEventListener("DOMContentLoaded", function() {
-
-					document.getElementById("menuHome").accessKey = "1";
-					document.getElementById("menuAbout").accessKey = "2";
-					document.getElementById("menuService").accessKey = "3";
-					document.getElementById("menuPortfolio").accessKey = "4";
-					document.getElementById("menuContact").accessKey = "5";
-			  
-				  // get the form elements defined in your form HTML above
-				  
-				  var form = document.getElementById("myForm");
-				  var button = document.getElementById("btnContact");
-				  var status = document.getElementById("my-form-status");
-			  
-				  // Success and Error functions for after the form is submitted
-				  
-				  function success() {
-					form.reset();
-					button.style = "display: none ";
-					status.innerHTML = "Seu formulário foi enviado. Obrigado!";
-				  }
-			  
-				  function error() {
-					status.innerHTML = "Oops! Tivemos um problema com seu envio.";
-				  }
-			  
-				  // handle the form submission event
-			  
-				  form.addEventListener("submit", function(ev) {
-					ev.preventDefault();
-					var data = new FormData(form);
-					ajax(form.method, form.action, data, success, error);
-				  });
-				});
-				
-				// helper function for sending an AJAX request
-			  
-				function ajax(method, url, data, success, error) {
-				  var xhr = new XMLHttpRequest();
-				  xhr.open(method, url);
-				  xhr.setRequestHeader("Accept", "application/json");
-				  xhr.onreadystatechange = function() {
-					if (xhr.readyState !== XMLHttpRequest.DONE) return;
-					if (xhr.status === 200) {
-					  success(xhr.response, xhr.responseType);
-					} else {
-					  error(xhr.status, xhr.response, xhr.responseType);
-					}
-				  };
-				  xhr.send(data);
-				}
-			  </script>
+			
 		</body>
 	</html>

@@ -116,7 +116,7 @@
   display: inline-block;
   color: $black;
   font-weight:500;  
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
   outline: none;
 }
@@ -158,6 +158,15 @@
 .nav-menu ul ul {
   margin-right: 10px;
   margin-top:0;
+}
+.nav-pills .nav-link.active, 
+.nav-pills .show > .nav-link {
+  color: $primary-color;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.nav-pills .nav-link {
+  border-radius: 0;
 }
 
 /* Mobile Nav Toggle */
