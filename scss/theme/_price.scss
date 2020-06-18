@@ -4,7 +4,7 @@
 
     .accordion > dt {
         margin-bottom: 10px;
-        font-size: 14px;
+        @include font-size(14);
         font-weight: 400;
     }
     .accordion > dt > a {
@@ -13,11 +13,11 @@
         color: #222222;
         text-decoration: none;
         padding: 8px 30px;
-        font-size:16px;
+        @include font-size(16);
         font-weight:500;
         background: #fafcff;
         @media(max-width:414px){
-            font-size:12px;
+            @include font-size(12);
         }
     }
     .accordion > dt > a:hover {
@@ -45,7 +45,7 @@
         font-weight: normal;
         font-variant: normal;
         text-transform: none;
-        font-size: 15px;
+        @include font-size(15);
         line-height: 15px;
         text-align: center;
         color: $black;
@@ -62,7 +62,7 @@
     .accordion > dd {
         margin-bottom: 10px;
         padding: 10px 20px 20px;
-        font-size: 14px;
+        @include font-size(14);
         line-height: 1.8;
         color: #777;
     }
@@ -91,7 +91,7 @@
     .accordion.time-line > dd {
         margin-bottom: 10px;
         padding: 10px 20px 20px 40px;
-        font-size: 14px;
+        @include font-size(14);
         line-height: 1.8;
         color: #777;
     }
@@ -110,7 +110,7 @@
         font-weight: bold;
         font-variant: normal;
         text-transform: none;
-        font-size: 20px;
+        @include font-size(20);
         text-align: center;
         color: #fff;
         -webkit-font-smoothing: antialiased;

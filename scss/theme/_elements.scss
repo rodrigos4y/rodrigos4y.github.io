@@ -44,7 +44,7 @@ body{
         }
         p {
             text-align: center;
-            font-size: 16px;
+            @include font-size(16);
             br {
                 @include media-breakpoint-down (md) {
                     display: none;
@@ -101,7 +101,7 @@ body{
 
 .text-heading {
 	margin-bottom: 1.875rem;
-	font-size: 24px;
+	@include font-size(24);
 }
 
 .typo-list{
@@ -129,22 +129,22 @@ b,sup, sub, u, del {
 	color: $primary;
 }
 h1 {
-	font-size: 36px;
+	@include font-size(36);
 }
 h2 {
-	font-size: 1.875rem;
+	@include font-size(30);
 }
 h3 {
-	font-size: 24px;
+	@include font-size(24);
 }
 h4 {
-	font-size: 18px;
+	@include font-size(18);
 }
 h5 {
-	font-size: 16px;
+	@include font-size(16);
 }
 h6 {
-	font-size: 14px;
+	@include font-size(14);
 }
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.5em;
@@ -1032,7 +1032,7 @@ h1, h2, h3, h4, h5, h6 {
 				@include transition();
 				line-height: 28px;
 				min-height: 28px;
-				font-size: 12px;
+				@include font-size(12);
 				padding-left: 20px;
 				&.selected {
 					color: $primary;
@@ -1084,7 +1084,7 @@ h1, h2, h3, h4, h5, h6 {
 				@include transition();
 				line-height: 28px;
 				min-height: 28px;
-				font-size: 12px;
+				@include font-size(12);
 				padding-left: 45px;
 				&.selected {
 					color: $primary;

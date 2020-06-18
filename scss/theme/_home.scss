@@ -130,7 +130,7 @@
     }
     h1{
         margin:20px 0;
-        font-size:60px;
+        @include font-size(60);
         text-transform:uppercase;
         @media(max-width:991px){
             font-size:30px;
@@ -179,7 +179,7 @@
     h1{
         margin-bottom:40px;
         @media(max-width:991px){
-            font-size:20px;
+            @include font-size(20);
         }
     }
     p{
@@ -203,7 +203,7 @@
     text-align:center;
     margin-top:60px;
     .lnr{
-        font-size:35px;
+        @include font-size(35);
         color:$black;
         @include transition();
     }
@@ -280,7 +280,7 @@
     position: relative;
     text-transform: uppercase;
     color: $black;
-    font-size:12px;
+    @include font-size(12);
     font-weight: 500;
     @media(max-width: 736px) {
         padding: 6px 6px;
@@ -339,7 +339,7 @@
 
 
 .portfolio-area .filters-content .item .p-inner .cat {
-    font-size: 13px;
+    @include font-size(13);
 }
 
 .portfolio-area .filters-content .item img {
@@ -374,7 +374,7 @@
 
 .text {
   color: white;
-  font-size: 25px;
+  @include font-size(25);
   padding: 16px 32px;
 }
 
@@ -584,7 +584,7 @@
             color:#222;
         }
         .name{
-            font-size:13px;
+            @include font-size(13);
             font-weight:100;
         }
         p{
@@ -677,13 +677,13 @@
         margin-top: 70px;
     }
     h1 {
-        font-size: 48px;
+        @include font-size(48);
         font-weight: 600;
     }
     a {
         color: $white;
         font-weight: 300;
-        font-size: 14px;
+        @include font-size(14);
     }
     .lnr {
         margin: 0px 10px;

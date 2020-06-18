@@ -799,7 +799,7 @@ body {
 
 .generic-banner .generic-banner-content p {
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 @media (max-width: 991.98px) {
@@ -849,7 +849,7 @@ body {
 
 .text-heading {
   margin-bottom: 1.875rem;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .typo-list {
@@ -873,7 +873,7 @@ b, sup, sub, u, del {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 h2 {
@@ -881,19 +881,19 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 h6 {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 h1, h2, h3,
@@ -1872,7 +1872,7 @@ h4, h5, h6 {
   transition: all 0.3s ease 0s;
   line-height: 28px;
   min-height: 28px;
-  font-size: 12px;
+  font-size: 0.75rem;
   padding-left: 20px;
 }
 
@@ -1930,7 +1930,7 @@ h4, h5, h6 {
   transition: all 0.3s ease 0s;
   line-height: 28px;
   min-height: 28px;
-  font-size: 12px;
+  font-size: 0.75rem;
   padding-left: 45px;
 }
 
@@ -2127,7 +2127,7 @@ h4, h5, h6 {
   top: 22px;
   border: 0;
   background: none;
-  font-size: 24px;
+  font-size: 1.5rem;
   display: none;
   transition: all 0.4s;
   outline: none;
@@ -2174,7 +2174,7 @@ h4, h5, h6 {
 
 #mobile-nav ul li a {
   color: #fff;
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-transform: uppercase;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -2370,7 +2370,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-left h1 {
   margin: 20px 0;
-  font-size: 60px;
+  font-size: 3.75rem;
   text-transform: uppercase;
 }
 
@@ -2429,7 +2429,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 991px) {
   .home-about-right h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 
@@ -2450,7 +2450,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-services .lnr {
-  font-size: 35px;
+  font-size: 2.1875rem;
   color: #222;
   transition: all 0.3s ease 0s;
 }
@@ -2517,7 +2517,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   text-transform: uppercase;
   color: #222;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
 }
 
@@ -2578,7 +2578,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio-area .filters-content .item .p-inner .cat {
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .portfolio-area .filters-content .item img {
@@ -2611,7 +2611,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .text {
   color: white;
-  font-size: 25px;
+  font-size: 1.5625rem;
   padding: 16px 32px;
 }
 
@@ -2822,7 +2822,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-recent-blog .name {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 100;
 }
 
@@ -2923,14 +2923,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-content h1 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
 }
 
 .about-content a {
   color: #fff;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .about-content .lnr {
@@ -3070,7 +3070,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* =================================== */
 .accordion > dt {
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
 }
 
@@ -3080,14 +3080,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #222222;
   text-decoration: none;
   padding: 8px 30px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   background: #fafcff;
 }
 
 @media (max-width: 414px) {
   .accordion > dt > a {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 
@@ -3117,7 +3117,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 15px;
   text-align: center;
   color: #222;
@@ -3137,7 +3137,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .accordion > dd {
   margin-bottom: 10px;
   padding: 10px 20px 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.8;
   color: #777;
 }
@@ -3166,7 +3166,7 @@ dl.accordion.time-line:before {
 .accordion.time-line > dd {
   margin-bottom: 10px;
   padding: 10px 20px 20px 40px;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.8;
   color: #777;
 }
@@ -3186,7 +3186,7 @@ dl.accordion.time-line:before {
   font-weight: bold;
   font-variant: normal;
   text-transform: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   color: #fff;
   -webkit-font-smoothing: antialiased;
@@ -3256,7 +3256,7 @@ dl.accordion.time-line:before {
 
 @media (max-width: 414px) {
   .blog-header-content h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
 
@@ -3342,7 +3342,7 @@ dl.accordion.time-line:before {
 
 .post-content-area .single-post .meta-details .tags li {
   display: inline-block;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .post-content-area .single-post .meta-details .tags li a {
@@ -3496,7 +3496,7 @@ dl.accordion.time-line:before {
 .widget-wrap .search-widget form.search-form input[type=text] {
   color: #fff;
   padding: 10px 22px;
-  font-size: 14px;
+  font-size: 0.875rem;
   border: none;
   float: left;
   width: 80%;
@@ -3531,7 +3531,7 @@ dl.accordion.time-line:before {
   padding: 10px;
   background: #8490ff;
   color: #fff;
-  font-size: 17px;
+  font-size: 1.0625rem;
   border: none;
   cursor: pointer;
   border-bottom-right-radius: 20px;
@@ -3562,7 +3562,7 @@ dl.accordion.time-line:before {
 .widget-wrap .user-info-widget .social-links li a {
   color: #222;
   padding: 10px;
-  font-size: 14px;
+  font-size: 0.875rem;
   transition: all 0.3s ease 0s;
 }
 
@@ -3627,7 +3627,7 @@ dl.accordion.time-line:before {
 
 .widget-wrap .post-category-widget .cat-list li p {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.875rem;
   margin-bottom: 0px;
   transition: all 0.3s ease 0s;
 }
@@ -3663,7 +3663,7 @@ dl.accordion.time-line:before {
 .widget-wrap .newsletter-widget .bbtns {
   background: #8490ff;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   padding: 8px 20px;
   border-radius: 0;
@@ -3684,7 +3684,7 @@ dl.accordion.time-line:before {
   border-left: none !important;
   border-right: none !important;
   border-radius: 0px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #ccc;
   padding: 9px;
   padding-left: 0px;
@@ -3697,25 +3697,25 @@ dl.accordion.time-line:before {
 
 .widget-wrap .newsletter-widget ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #ccc;
 }
 
 .widget-wrap .newsletter-widget ::-moz-placeholder {
   /* Firefox 19+ */
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #ccc;
 }
 
 .widget-wrap .newsletter-widget :-ms-input-placeholder {
   /* IE 10+ */
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #ccc;
 }
 
 .widget-wrap .newsletter-widget :-moz-placeholder {
   /* Firefox 18- */
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #ccc;
 }
 
@@ -3749,7 +3749,7 @@ dl.accordion.time-line:before {
 }
 
 .widget-wrap .tag-cloud-widget ul li a {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #222;
 }
 
@@ -3772,7 +3772,7 @@ dl.accordion.time-line:before {
 .single-post-area .social-links li a {
   color: #222;
   padding: 7px;
-  font-size: 14px;
+  font-size: 0.875rem;
   transition: all 0.3s ease 0s;
 }
 
@@ -3792,7 +3792,7 @@ dl.accordion.time-line:before {
 }
 
 .single-post-area .arrow .lnr {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -3907,13 +3907,13 @@ dl.accordion.time-line:before {
 
 @media (max-width: 413px) {
   .comments-area .comment-list .single-comment h5 {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .comments-area .comment-list .single-comment .date {
-    font-size: 11px;
+    font-size: 0.6875rem;
   }
   .comments-area .comment-list .single-comment .comment {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
 }
 
@@ -3922,7 +3922,7 @@ dl.accordion.time-line:before {
 }
 
 .comments-area .date {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #cccccc;
 }
 
@@ -3984,7 +3984,7 @@ dl.accordion.time-line:before {
   border: none;
   border-radius: 0px;
   width: 100%;
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #777777;
 }
 
@@ -3995,25 +3995,25 @@ dl.accordion.time-line:before {
 
 .comment-form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #777;
 }
 
 .comment-form ::-moz-placeholder {
   /* Firefox 19+ */
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #777;
 }
 
 .comment-form :-ms-input-placeholder {
   /* IE 10+ */
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #777;
 }
 
 .comment-form :-moz-placeholder {
   /* Firefox 18- */
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #777;
 }
 
@@ -4049,7 +4049,7 @@ dl.accordion.time-line:before {
 }
 
 .contact-page-area .contact-btns {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   text-align: center;
   padding: 40px;
@@ -4085,7 +4085,7 @@ dl.accordion.time-line:before {
 .contact-page-area .form-area .genric-btn {
   transition: all 0.3s ease 0s;
   border-radius: 0 !important;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-transform: uppercase !important;
 }
 
@@ -4106,12 +4106,12 @@ dl.accordion.time-line:before {
 
 .contact-page-area .address-wrap .single-contact-address h5 {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 5px;
 }
 
 .contact-page-area .address-wrap .single-contact-address .lnr {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 500;
   color: #8490ff;
   margin-right: 30px;
@@ -4137,7 +4137,7 @@ dl.accordion.time-line:before {
   background: #f9f9ff;
   padding-left: 20px;
   border-radius: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: normal !important;
   color: #222;
 }
@@ -4172,7 +4172,7 @@ dl.accordion.time-line:before {
 .single-footer-widget .info {
   margin-top: 25px;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .single-footer-widget .info.valid {
@@ -4192,7 +4192,7 @@ dl.accordion.time-line:before {
 
 .single-footer-widget .btn .lnr {
   line-height: inherit;
-  font-size: 13px;
+  font-size: 0.8125rem;
   padding: 0px 4px;
 }
 

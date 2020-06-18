@@ -20,7 +20,7 @@
         background: #f9f9ff;
         padding-left: 20px;
         border-radius: 0;
-        font-size: 14px;
+        @include font-size(14);
         line-height: normal!important;
         color:$black;
         &:focus {
@@ -49,7 +49,7 @@
     .info { 
         margin-top: 25px;
         color: #fff;
-        font-size: 12px;
+        @include font-size(12);
         &.valid {
             color: green;
         }
@@ -64,7 +64,7 @@
        color:$white;
        .lnr{
         line-height:inherit;
-        font-size:13px;
+        @include font-size(13);
         padding: 0px 4px;        
        }
     }

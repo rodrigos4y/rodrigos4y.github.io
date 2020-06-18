@@ -36,7 +36,7 @@
         margin-left: auto;
         margin-right: auto;
         @media(max-width: 414px) {
-            font-size: 30px;
+            @include font-size(30);
         }
     }
     p {
@@ -103,7 +103,7 @@
                 margin-bottom: 30px;
                 li {
                     display: inline-block;
-                    font-size: 14px;
+                    @include font-size(14);
                     a {
                         color: $black;
                         @include transition();
@@ -241,7 +241,7 @@
         form.search-form input[type=text] {
             color: $white;
             padding: 10px 22px;
-            font-size: 14px;
+            @include font-size(14);
             border: none;
             float: left;
             width: 80%;
@@ -271,7 +271,7 @@
             padding: 10px;
             background: $primary-color;
             color: $white;
-            font-size: 17px;
+            @include font-size(17);
             border: none;
             cursor: pointer;
             border-bottom-right-radius: 20px;
@@ -297,7 +297,7 @@
                 a {
                     color: $black;
                     padding: 10px;
-                    font-size: 14px;
+                    @include font-size(14);
                     @include transition();
                     &:hover {
                         color: $primary-color;
@@ -355,7 +355,7 @@
             li {
                 p {
                     font-weight: 300;
-                    font-size: 14px;
+                    @include font-size(14);
                     margin-bottom: 0px;
                     @include transition();
                 }
@@ -392,7 +392,7 @@
         .bbtns {
             background: $primary-color;
             color: $white;
-            font-size: 12px;
+            @include font-size(12);
             font-weight: 500;
             padding: 8px 20px;
             border-radius: 0;
@@ -410,7 +410,7 @@
             border-left: none!important;
             border-right: none!important;
             border-radius: 0px;
-            font-size: 13px;
+            @include font-size(13);
             color: #ccc;
             padding: 9px;
             padding-left: 0px;
@@ -421,22 +421,22 @@
         }
         ::-webkit-input-placeholder {
             /* Chrome/Opera/Safari */
-            font-size: 13px;
+            @include font-size(13);
             color: #ccc;
         }
         ::-moz-placeholder {
             /* Firefox 19+ */
-            font-size: 13px;
+            @include font-size(13);
             color: #ccc;
         }
         :-ms-input-placeholder {
             /* IE 10+ */
-            font-size: 13px;
+            @include font-size(13);
             color: #ccc;
         }
         :-moz-placeholder {
             /* Firefox 18- */
-            font-size: 13px;
+            @include font-size(13);
             color: #ccc;
         }
         .text-bottom {
@@ -466,7 +466,7 @@
                     }
                 }
                 a {
-                    font-size: 12px;
+                    @include font-size(12);
                     color: $black;
                 }
             }
@@ -493,7 +493,7 @@
             a {
                 color: $black;
                 padding: 7px;
-                font-size: 14px;
+                @include font-size(14);
                 @include transition();
                 &:hover {
                     color: $primary-color;
@@ -510,7 +510,7 @@
     .arrow {
         position: absolute;
         .lnr {
-            font-size: 20px;
+            @include font-size(20);
             font-weight: 600;
         }
     }
@@ -610,13 +610,13 @@
         @media(max-width:413px) {
             .single-comment {
                 h5 {
-                    font-size: 12px;
+                    @include font-size(12);
                 }
                 .date {
-                    font-size: 11px;
+                    @include font-size(11);
                 }
                 .comment {
-                    font-size: 10px;
+                    @include font-size(10);
                 }
             }
         }
@@ -625,7 +625,7 @@
         margin-right: 20px;
     }
     .date {
-        font-size: 13px;
+        @include font-size(13);
         color: #cccccc;
     }
     .comment {
@@ -674,7 +674,7 @@
         border: none;
         border-radius: 0px;
         width: 100%;
-        font-size: 13px;
+        @include font-size(13);
         color: #777777;
         &:focus {
             box-shadow: none;
@@ -683,22 +683,22 @@
     }
     ::-webkit-input-placeholder {
         /* Chrome/Opera/Safari */
-        font-size: 13px;
+        @include font-size(13);
         color: #777;
     }
     ::-moz-placeholder {
         /* Firefox 19+ */
-        font-size: 13px;
+        @include font-size(13);
         color: #777;
     }
     :-ms-input-placeholder {
         /* IE 10+ */
-        font-size: 13px;
+        @include font-size(13);
         color: #777;
     }
     :-moz-placeholder {
         /* Firefox 18- */
-        font-size: 13px;
+        @include font-size(13);
         color: #777;
     }
     .primary-btn {

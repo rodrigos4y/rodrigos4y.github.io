@@ -104,6 +104,10 @@
           animation: $args;
 }
 
+@mixin font-size ($pixelSize) {
+  font-size: $pixelSize/16 + rem;
+}
+
 // Medium Layout: 1280px 
 @mixin medium {
   @media (min-width: 992px) and (max-width: 1400px) {
